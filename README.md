@@ -2,44 +2,67 @@ Smart Study Assistant
 
 Overview
 
-Smart Study Assistant is an AI-powered web application designed to help students understand difficult topics, summarize study content, answer academic questions, and generate study questions.
+Smart Study Assistant is an AI-powered web application designed to help students study more effectively and interactively.
 
-Project Structure
+The application allows students to ask academic questions, understand difficult concepts, summarize study content, and generate practice questions using artificial intelligence.
 
-PRD - Project requirements and objectives
-README.md - Project overview and instructions
-AGENTS.md - AI assistant development guidelines
-SECURITY_RULES.md - Security rules and best practices
-app.py - Main application file
+Features
 
+Ask academic questions
+Explain difficult concepts
+Summarize study content
+Generate practice questions
+Arabic and English support
+AI-powered responses
+Simple and user-friendly interface
 
-Technologies and AI Tools
+Technologies Used
 
 Python
 Streamlit
-OpenAI API
+OpenRouter API
+Artificial Intelligence / LLMs
 GitHub
-AI-assisted development tools
+Render
 
-Installation and Setup
+Project Structure
 
-Install Python
-Install the required libraries
-Add your API key to the environment variables
-Run the application using Streamlit
+app.py — Main application file
+translations.py — Arabic and English translations
+requirements.txt — Required Python libraries
+README.md — Project documentation
+SECURITY_RULES.md — Security guidelines
+AGENTS.md — AI development instructions
+PRD — Project requirements and objectives
 
-Usage
+Deployment
 
-Open the application
-Enter your study question or content
-Choose the AI feature you want to use
-Receive the AI-generated response
+The application is deployed as a web service using Render and connected directly to this GitHub repository.
+
+Updates pushed to the main branch can be automatically deployed to the live application.
+
+Security
+
+API keys and sensitive information are stored securely using environment variables and are not exposed directly in the source code.
+
+Project Goal
+
+The goal of Smart Study Assistant is to demonstrate how artificial intelligence can be integrated into a practical educational application to make studying easier, faster, and more interactive.
+
+Acknowledgment
+
+This project was developed as part of a learning experience with @SDAIAAcademy.
+
+Special thanks to SDAIA Academy for supporting and empowering learners in artificial intelligence and modern software development.
 
 Future Improvements
 
-Add user accounts
-Save study history
-Support multiple languages
-Add voice interaction
-Improve AI responses
+User accounts
+Study history
+File and document analysis
+Voice interaction
+Personalized study plans
+Additional AI models
+Improved AI responses
 
+Developed as part of the learning journey with @SDAIAAcademy.
